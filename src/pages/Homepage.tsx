@@ -1,9 +1,11 @@
+import HomepageMe from "../components/HomepageMe";
+
 function Homepage() {
   return (
     <div className="homepage">
-      <h1>Homepage</h1>
+      <HomepageMe />
     </div>
-  )
+  );
 }
 
-export default Homepage
+export default Homepage;

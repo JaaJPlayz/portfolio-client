@@ -1,0 +1,31 @@
+.homepage-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  height: 80vh;
+  width: 35rem;
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 0.325rem;
+}
+
+.my-photo img {
+  border-radius: 10px;
+  object-fit: cover;
+  margin-top: 2.5rem;
+}
+
+.my-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2.2rem;
+}
