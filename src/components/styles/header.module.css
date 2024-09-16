@@ -38,7 +38,7 @@
   font-weight: bold;
 }
 
-/* Add a bounce animation to the links */
+/* Make a bounce animation */
 @keyframes bounce {
   0%,
   20%,
@@ -55,7 +55,7 @@
   }
 }
 
-/* Make a bounce animation for the links */
+/* Apply the bounce animation to the links */
 .links a:hover {
   animation: bounce 0.5s;
   scale: 1.2;
