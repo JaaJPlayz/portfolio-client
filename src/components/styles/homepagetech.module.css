@@ -1,0 +1,48 @@
+.homepage-tech {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  height: 80vh;
+  width: 80rem;
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 0.325rem;
+  margin-left: 2.75rem;
+}
+
+.tech-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: var(--tertiary-color);
+  border-radius: 0.325rem;
+  padding: 1rem;
+}
+
+.tech-item img {
+  height: 10rem;
+  width: 10rem;
+}
+
+.tech-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.tech-grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
