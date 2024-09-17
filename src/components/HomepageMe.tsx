@@ -4,7 +4,7 @@ function HomepageMe() {
   return (
     <div className={styles["homepage-me"]}>
       <div className={styles["my-photo"]}>
-        <img src="image 7.png" alt="My Photo" />
+        <img src="image 7.jpg" alt="My Photo" />
       </div>
       <div className={styles["my-info"]}>
         <h1 className={styles["my-name"]}>Hiago Augusto</h1>
