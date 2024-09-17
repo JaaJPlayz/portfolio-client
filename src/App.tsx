@@ -6,6 +6,7 @@ import Layout from "./components/Layout";
 
 // Pages imports
 import Homepage from "./pages/Homepage";
+import About from "./pages/About";
 import NotFound from "./pages/NotFound";
 
 function App() {
@@ -20,6 +21,16 @@ function App() {
             </Layout>
           }
         />
+
+        <Route
+          path="/about"
+          element={
+            <Layout>
+              <About />
+            </Layout>
+          }
+        />
+
         <Route
           path="*"
           element={

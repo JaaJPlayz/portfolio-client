@@ -1,0 +1,36 @@
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 80vh;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  border-radius: 0.325rem;
+}
+
+.about h5 {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.about h5:first-of-type {
+  margin-bottom: 2rem;
+  scale: 1.125;
+}
+
+.about h6 {
+  margin-bottom: 1rem;
+  width: 80%;
+  text-align: center;
+}
+
+.about h6:first-of-type {
+  margin-bottom: 0.5rem;
+}
+
+
+
+
