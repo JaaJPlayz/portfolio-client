@@ -72,10 +72,10 @@ h6 {
   --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
     "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
     "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
-  --background-color: #1f2335;
+  --background-color: #111111;
   --text-color: #ffffff;
   --primary-color: #394b70;
-  --secondary-color: #737aa2;
+  --secondary-color: #212121;
   --tertiary-color: #d9d9d9;
   --secondary-background-color: #212121;
 }

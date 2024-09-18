@@ -9,7 +9,7 @@
   margin-bottom: 3rem;
   padding-left: 5rem;
   padding-right: 5rem;
-  background-color: #a9b1d6;
+  background-color: #ffffff;
 }
 
 @keyframes bounce {
@@ -38,5 +38,7 @@
 
 img {
   scale: 1.2;
+  /* Make the image white */
+  filter: invert(-100%);
 }
 
