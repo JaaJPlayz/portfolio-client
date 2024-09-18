@@ -10,3 +10,10 @@
   color: var(--text-color);
   border-radius: 0.325rem;
 }
+
+.media-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
