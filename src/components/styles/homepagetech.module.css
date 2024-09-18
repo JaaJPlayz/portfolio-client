@@ -21,9 +21,19 @@
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  background-color: var(--tertiary-color);
-  border-radius: 0.325rem;
+  background-color: var(--secondary-background-color);
   padding: 1rem;
+}
+
+.border {
+  border: 2px solid var(--tertiary-color);
+  scale: 1.2;
+  border-radius: 0.325rem;
+}
+
+.no-border {
+  border: none;
+  scale: 1.2;
 }
 
 .tech-item img {
