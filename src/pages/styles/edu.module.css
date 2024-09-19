@@ -1,0 +1,12 @@
+.edu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 80vh;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  border-radius: 0.325rem;
+}

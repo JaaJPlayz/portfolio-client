@@ -8,6 +8,7 @@ import Layout from "./components/Layout";
 import Homepage from "./pages/Homepage";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import Edu from "./pages/Edu";
 import NotFound from "./pages/NotFound";
 
 function App() {
@@ -32,12 +33,20 @@ function App() {
           }
         />
 
-
         <Route
           path="/contact"
           element={
             <Layout>
               <Contact />
+            </Layout>
+          }
+        />
+
+        <Route
+          path="/edu"
+          element={
+            <Layout>
+              <Edu />
             </Layout>
           }
         />
